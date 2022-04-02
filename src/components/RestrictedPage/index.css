@@ -1,0 +1,35 @@
+.userArea{
+    height: 350px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-image: linear-gradient(45deg, black, transparent);
+}
+
+.user__msg{
+    border: 1px dotted #646464;
+    width: 400px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user__msg h1{
+    font-size: 40px;
+    font-family: "Roboto";
+}
+ 
+.user__msg button{
+    height: 35px;
+    width: 100px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    color: #d9d9d9;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
